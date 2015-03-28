@@ -43,7 +43,6 @@ Graph.prototype.forEachNode = function(cb){
   _.each(this, function(obj, node) {
     cb(node);
   });
-  console.log(this);
 };
 
 /*
